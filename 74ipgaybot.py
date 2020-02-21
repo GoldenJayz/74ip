@@ -66,12 +66,6 @@ async def on_message(message):
    if ('asshole') in message.content:
         await client.delete_message(message)    
         await client.send_message(message.channel,'Do not swear! Mods/Admins have been alerted! <@%s>'  %(message.author.id))
-   if ('fortnite') in message.content:
-        await client.delete_message(message)    
-        await client.send_message(message.channel,'I do not like that video game! <@%s>'  %(message.author.id))
-   if ('Fortnite') in message.content:
-        await client.delete_message(message)    
-        await client.send_message(message.channel,'I do not like that video game! <@%s>'  %(message.author.id))
    if message.content == ('-74ip'):
         if message.author.id == "641772453168676886":
             await client.send_message(message.channel,'Hi queen 74ip how may I serve you?')
