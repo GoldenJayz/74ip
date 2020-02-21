@@ -15,7 +15,7 @@ Clientdiscord = discord.Client()
 
 @client.event
 async def on_ready():
-    await client.change_presence(game=Game(name='Developer Test Version', type = 2))
+    await client.change_presence(game=Game(name='Ram Ranch', type = 2))
     print('Loading 74ip bot')
 
 
