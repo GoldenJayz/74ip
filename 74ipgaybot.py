@@ -32,4 +32,4 @@ async def on_message(message):
    if message.content.startswith('-8ball'):
         randomlist = ['Maybe','Yes','No',]
         await client.send_message(message.channel,(random.choice(randomlist)))
-client.run('NjgwMTU1NDA0NDE1NTMzMTc3.Xk7yKQ.fa-Cnx1q37tP4P_6pH67qNvbiSI')
+client.run(str(os.environ.get('BOT_TOKEN')))
