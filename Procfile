@@ -1,1 +1,1 @@
-worker: python Zeldapedia.py
+worker: python 74ipgaybot.py
